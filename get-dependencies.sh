@@ -8,7 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     libdecor       \
-    pipewire-jack  \
+    pipewire-alsa  \
     pipewire-audio \
     sdl2
 
