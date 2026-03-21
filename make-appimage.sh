@@ -19,6 +19,7 @@ export DEPLOY_PIPEWIRE=1
 quick-sharun /opt/gearcoleco/*
 
 # Additional changes can be done in between here
+wget -O ./AppDir/bin/gamecontrollerdb.txt https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
