@@ -18,9 +18,10 @@ export DEPLOY_PIPEWIRE=1
 # Deploy dependencies
 quick-sharun /opt/gearcoleco/* \
 /usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
-wget -O ./AppDir/shared/bin/gamecontrollerdb.txt https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt
+wget -O ./AppDir/bin/gamecontrollerdb.txt https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
