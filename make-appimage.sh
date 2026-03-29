@@ -12,6 +12,7 @@ export ICON=https://raw.githubusercontent.com/drhelius/Gearcoleco/refs/heads/mai
 export DESKTOP=/usr/share/applications/gearcoleco.desktop
 export STARTUPWMCLASS=gearcoleco
 export DEPLOY_GTK=1
+export GTK_DIR=gtk-3.0
 export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
