@@ -12,12 +12,9 @@ export ICON=https://raw.githubusercontent.com/drhelius/Gearcoleco/refs/heads/mai
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-3.0
 export DEPLOY_OPENGL=1
-#export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/gearcoleco #\
-#/usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
-#echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
+quick-sharun ./AppDir/bin/gearcoleco
 
 # Additional changes can be done in between here
 
